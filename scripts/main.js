@@ -1,3 +1,6 @@
+let monTitre = document.querySelector('h1');
+monTitre.textContent = 'Hello world!';
+
 let monImage = document.querySelector('img');
 
 monImage.addEventListener('click', function() {
@@ -7,7 +10,7 @@ monImage.addEventListener('click', function() {
     } else {
       monImage.setAttribute('src', 'images/firefox-icon.png');
     }
-});
+}); 
 document.querySelector('html').addEventListener('click', function() {
     alert('Aïe, arrêtez de cliquer !!');
 });
